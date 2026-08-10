@@ -6,6 +6,9 @@
 *.lo
 *.o
 *.obj
+*.i
+*.ii
+*.s
 
 # Precompiled Headers
 *.gch
@@ -48,15 +51,17 @@ build-*/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
+
 install_manifest.txt
 compile_commands.json
 
 # Temporary files
 *.tmp
-*.log
 *.bak
 *.swp
+.*.swo
+.*.swn
+*~
 
 # vcpkg
 vcpkg_installed/
@@ -65,5 +70,4 @@ vcpkg_installed/
 *.dwo
 
 # test output & cache
-Testing/
 .cache/
